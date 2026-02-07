@@ -1,0 +1,11 @@
+[package]
+name = "oxytiles"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+eframe = "0.33"
+egui = "0.33"
+egui_extras = { version = "0.33", features = ["image"] }
+image = { version = "0.25", features = ["png"] }
+rfd = "0.17.2"
